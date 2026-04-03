@@ -379,3 +379,9 @@ footer { background:var(--text); color:rgba(255,255,255,.8); padding:clamp(4rem,
   .wa-modal.open { padding:0 1rem 5rem 1rem; align-items:flex-end; justify-content:center; }
   .wa-box,.wa-modal-box { width:100%!important; max-width:420px; }
 }
+
+/* Logo branca no hero (filtro inverte para branco) */
+.logo-img { filter: brightness(0) invert(1); transition: filter .3s; }
+
+/* Logo colorida/original quando header fica sólido */
+.hdr.solid .logo-img { filter: none; }
