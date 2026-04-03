@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pousadamontverde.com.br/sitemap.xml
