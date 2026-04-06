@@ -327,11 +327,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <form onsubmit="submitWAForm(event)">
       <input type="hidden" id="wa-contexto" value="">
-      <div class="fg"><label>Seu nome *</label><input type="text" id="wa-nome" placeholder="Como posso te chamar?" required></div>
-      <div class="fg"><label>E-mail</label><input type="email" id="wa-email" placeholder="seu@email.com"></div>
-      <div class="fg"><label>Telefone *</label><input type="tel" id="wa-tel" placeholder="(21) 99999-9999" required></div>
-      <div class="fg"><label>Check-in</label><input type="date" id="wa-checkin"></div>
-      <div class="fg"><label>Check-out</label><input type="date" id="wa-checkout"></div>
+      <input type="text" id="wa-nome" placeholder="Nome completo" autocomplete="name" required>
+      <input type="email" id="wa-email" placeholder="seu@email.com" autocomplete="email" required>
+      <input type="tel" id="wa-tel" placeholder="(21) 99999-9999" autocomplete="tel" required>
       <button type="submit" class="wa-submit">Abrir WhatsApp →</button>
       <div class="wa-divider"><span>ou</span></div>
       <a href="https://booking.hqbeds.com.br/montverde/rooms" target="_blank" rel="noopener" class="wa-reserve-btn"
