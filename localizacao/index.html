@@ -219,19 +219,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <form id="waForm" onsubmit="submitWAForm(event)">
       <div class="wa-form-body">
-        <div class="fg"><label>Seu nome *</label><input type="text" id="wa-nome" placeholder="Nome completo" required></div>
-        <div class="fg"><label>E-mail *</label><input type="email" id="wa-email" placeholder="seu@email.com" required></div>
-        <div class="fg"><label>Telefone *</label><input type="tel" id="wa-tel" placeholder="(21) 99999-9999" required></div>
-        <div class="fg-row">
-          <div class="fg"><label>Check-in</label><input type="date" id="wa-in"></div>
-          <div class="fg"><label>Check-out</label><input type="date" id="wa-out"></div>
-        </div>
+        <div class="fg"><label>Seu nome *</label><input type="text" id="wa-nome" placeholder="Nome completo" autocomplete="name" required></div>
+        <div class="fg"><label>E-mail *</label><input type="email" id="wa-email" placeholder="seu@email.com" autocomplete="email" required></div>
+        <div class="fg"><label>Telefone *</label><input type="tel" id="wa-tel" placeholder="(21) 99999-9999" autocomplete="tel" required></div>
       </div>
       <button type="submit" class="wa-submit">Ir para o WhatsApp</button>
     </form>
     <div class="wa-divider"><span>ou</span></div>
-    <a href="https://booking.hqbeds.com.br/montverde/rooms" target="_blank" rel="noopener" class="wa-reserve-btn"
-       onclick="closeWAModal()">🗓️ Reservar Agora Online</a>
+    <a href="https://booking.hqbeds.com.br/montverde/rooms" target="_blank" rel="noopener"
+       class="wa-reserve-btn" onclick="closeWAModal()">🗓️ Reservar Agora Online</a>
   </div>
 </div>
 
