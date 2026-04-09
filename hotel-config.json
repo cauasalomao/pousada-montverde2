@@ -1,0 +1,125 @@
+{
+  "hotel": {
+    "name": "Pousada MontVerde",
+    "tagline": "Seu refúgio perfeito no Itanhangá",
+    "description_short": "Pousada no coração do Itanhangá, Rio de Janeiro. Refúgio verde a minutos da Barra, Parque Olímpico e Floresta da Tijuca.",
+    "description_long": "A Pousada MontVerde nasceu com uma proposta única: oferecer qualidade de vida e descanso genuíno sem exigir que você abra mão das conveniências da cidade. Somos um refúgio verde, tranquilo e seguro, encravado no Itanhangá — bairro nobre do Rio de Janeiro. A poucos minutos da Praia da Barra, do Parque Olímpico, do RioCentro e da Floresta da Tijuca.",
+    "style": "Refúgio urbano, natureza com conveniência, verde e tranquilo",
+    "target_audience": "Famílias, casais e viajantes corporativos que buscam tranquilidade com acesso fácil à cidade",
+    "tone": "Acolhedor, confiável, natureza como protagonista, sem ser formal"
+  },
+
+  "contact": {
+    "phone": "(21) 99691-5036",
+    "phone_international": "+55-21-99691-5036",
+    "email": "contato@pousadamontverde.com",
+    "wa_number": "5521996915036",
+    "instagram": "pousada_montverde",
+    "instagram_url": "https://instagram.com/pousada_montverde"
+  },
+
+  "address": {
+    "street": "R. Itália Fausta, 105",
+    "neighborhood": "Itanhangá",
+    "city": "Rio de Janeiro",
+    "state": "RJ",
+    "zip": "22641-440",
+    "country": "BR",
+    "coordinates": {
+      "lat": -22.986,
+      "lng": -43.352
+    }
+  },
+
+  "business": {
+    "cnpj": "63.165.135/0001-27",
+    "number_of_rooms": 16,
+    "checkin_time": "14:00",
+    "checkout_time": "12:00",
+    "price_range": "$$"
+  },
+
+  "amenities": [
+    "Piscina",
+    "Sauna",
+    "Churrasqueira",
+    "Ar-condicionado",
+    "Wi-Fi"
+  ],
+
+  "differentials": [
+    "Refúgio verde no coração do Rio de Janeiro",
+    "Minutos da Barra da Tijuca, Parque Olímpico e Floresta da Tijuca",
+    "Ambiente controlado, íntimo e seguro",
+    "Base estratégica para eventos no RioCentro"
+  ],
+
+  "nearby_attractions": [
+    "Praia da Barra da Tijuca",
+    "Parque Olímpico",
+    "Floresta da Tijuca",
+    "Pedra da Gávea",
+    "Itanhangá Golf Club",
+    "RioCentro"
+  ],
+
+  "rooms": [
+    {
+      "category": "casal",
+      "name": "Duplo & Queen",
+      "label": "Para casais",
+      "capacity": 2,
+      "image": "assets/img/quartos/casal.jpg"
+    },
+    {
+      "category": "familia",
+      "name": "Triplo & Quádruplo",
+      "label": "Para famílias",
+      "capacity": 4,
+      "image": "assets/img/quartos/triplo-beliche.jpg"
+    },
+    {
+      "category": "grupo",
+      "name": "Sêxtuplo & Óctuplo",
+      "label": "Para grupos",
+      "capacity": 8,
+      "image": "assets/img/quartos/sextuplo.jpg"
+    }
+  ],
+
+  "integrations": {
+    "webhook_url": "https://webhook.cidigitalmarketing.com/webhook/7c87bd71-6c33-437f-9073-2fae80d76d2f",
+    "gtm_id": "GTM-MXDKKWH3",
+    "hqbeds_url": "https://booking.hqbeds.com.br/montverde/rooms",
+    "maps_embed_url": "",
+    "domain": "https://pousadamontverde.com.br"
+  },
+
+  "design": {
+    "accent_color": "#3c614f",
+    "cta_color": "#92783b",
+    "bg_color": "#f8f5f0",
+    "font_display": "Pinyon Script",
+    "font_body": "Raleway"
+  },
+
+  "blog": {
+    "enabled": true,
+    "topics_focus": [
+      "turismo no Rio de Janeiro",
+      "natureza e trilhas na Tijuca",
+      "eventos no RioCentro e Parque Olímpico",
+      "praias da zona oeste do Rio",
+      "gastronomia carioca",
+      "dicas de viagem para o Rio",
+      "roteiros românticos no Rio",
+      "ecoturismo urbano"
+    ],
+    "seo_region_keywords": [
+      "Itanhangá", "Barra da Tijuca", "Rio de Janeiro",
+      "Floresta da Tijuca", "Pedra da Gávea", "zona oeste RJ"
+    ],
+    "internal_link_targets": ["acomodacoes", "experiencia", "contato", "galeria"],
+    "cta_default": "Reserve sua estadia na Pousada MontVerde"
+  }
+}

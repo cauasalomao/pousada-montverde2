@@ -1,0 +1,105 @@
+{
+  "editorial_strategy": {
+    "goal": "Atrair tráfego orgânico qualificado para a região do hotel via conteúdo informativo e inspiracional, gerando reservas",
+    "tone": "Informativo e acolhedor, com CTAs sutis para reserva. Escrita em português brasileiro, sem ser excessivamente formal.",
+    "word_count": "800-1200",
+    "target_keywords_per_post": 3,
+    "internal_links_per_post": 2,
+    "images_per_post": 0,
+    "posting_schedule": "terça e sexta",
+    "content_pillars": [
+      {
+        "pillar": "Destino",
+        "description": "O que fazer, onde ir, roteiros pela região do hotel",
+        "example_topics": ["Melhores praias da Barra da Tijuca", "Trilhas na Floresta da Tijuca", "O que fazer no Rio em 3 dias"]
+      },
+      {
+        "pillar": "Experiência",
+        "description": "Vivências no hotel e arredores, gastronomia, relaxamento",
+        "example_topics": ["Roteiro romântico no Itanhangá", "Gastronomia carioca perto da Barra", "Desconectar sem sair do Rio"]
+      },
+      {
+        "pillar": "Eventos",
+        "description": "Eventos no RioCentro, Parque Olímpico, shows e temporadas",
+        "example_topics": ["Onde ficar durante eventos no RioCentro", "Agenda cultural do Rio 2026", "Rock in Rio: hospedagem perto"]
+      },
+      {
+        "pillar": "Dicas práticas",
+        "description": "Informações úteis para quem visita a região",
+        "example_topics": ["Como chegar ao Itanhangá", "Melhores épocas para visitar o Rio", "Transporte na zona oeste do Rio"]
+      }
+    ]
+  },
+
+  "seo_rules": {
+    "title_format": "{Título do Post} | Blog Pousada MontVerde",
+    "meta_description_max_chars": 155,
+    "url_slug_format": "lowercase, hifenizado, sem acentos, max 5 palavras",
+    "heading_structure": "H1 único (título), H2 para seções, H3 para subseções",
+    "schema_type": "BlogPosting",
+    "canonical_base": "https://pousadamontverde.com.br/blog/",
+    "open_graph_type": "article",
+    "required_meta": [
+      "title", "meta description", "canonical", "og:title", "og:description",
+      "og:url", "og:type", "og:image", "twitter:card", "article:published_time"
+    ]
+  },
+
+  "post_template": {
+    "filename_pattern": "blog/{slug}/index.html",
+    "required_sections": [
+      "Introdução (2-3 parágrafos, inclui keyword principal)",
+      "Corpo (3-5 seções com H2, conteúdo útil e original)",
+      "CTA final (link para reserva ou contato)",
+      "Links internos naturais no texto"
+    ],
+    "footer_cta": "Hospede-se na Pousada MontVerde — seu refúgio no Itanhangá, a minutos de tudo no Rio."
+  },
+
+  "published": [
+    {
+      "slug": "trilhas-floresta-tijuca-iniciantes",
+      "date": "2026-04-09",
+      "title": "Melhores Trilhas na Floresta da Tijuca para Iniciantes",
+      "keywords": ["trilhas tijuca", "floresta da tijuca trilhas", "ecoturismo rio de janeiro"]
+    }
+  ],
+
+  "upcoming": [
+    {
+      "topic": "O que fazer na Barra da Tijuca além da praia",
+      "pillar": "Destino",
+      "target_keywords": ["barra da tijuca o que fazer", "pontos turísticos barra", "passeios barra da tijuca"],
+      "target_date": "2026-04-15",
+      "slug": "o-que-fazer-barra-da-tijuca"
+    },
+    {
+      "topic": "Roteiro romântico de fim de semana no Rio de Janeiro",
+      "pillar": "Experiência",
+      "target_keywords": ["roteiro romântico rio", "fim de semana romântico rj", "pousada romântica rio"],
+      "target_date": "2026-04-18",
+      "slug": "roteiro-romantico-rio-de-janeiro"
+    },
+    {
+      "topic": "Guia completo: onde ficar durante eventos no RioCentro",
+      "pillar": "Eventos",
+      "target_keywords": ["hotel perto riocentro", "hospedagem riocentro", "onde ficar riocentro"],
+      "target_date": "2026-04-22",
+      "slug": "onde-ficar-eventos-riocentro"
+    },
+    {
+      "topic": "Pedra da Gávea: como visitar e o que esperar",
+      "pillar": "Destino",
+      "target_keywords": ["pedra da gávea trilha", "como subir pedra da gávea", "pedra da gávea rio"],
+      "target_date": "2026-04-25",
+      "slug": "pedra-da-gavea-como-visitar"
+    },
+    {
+      "topic": "Desconectar sem sair da cidade: o conceito de refúgio urbano",
+      "pillar": "Experiência",
+      "target_keywords": ["refúgio urbano rio", "desconectar no rio de janeiro", "pousada natureza rio"],
+      "target_date": "2026-04-29",
+      "slug": "refugio-urbano-desconectar-rio"
+    }
+  ]
+}
