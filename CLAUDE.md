@@ -180,7 +180,7 @@ This project supports a scheduled remote agent that generates blog posts automat
 ### Schedule configuration
 
 Set up via Claude Code `/schedule` command:
-- **Frequency**: twice per week (Tuesday and Friday)
+- **Frequency**: once per week (Friday at 14h)
 - **Prompt**: "Read blog-plan.json. If there is an upcoming post with target_date ≤ today, generate it following the blog post creation instructions in CLAUDE.md. If no posts are due, do nothing."
 
 ### Replenishing the editorial calendar
